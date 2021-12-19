@@ -114,7 +114,7 @@ p{
     color:var(--light-gray);
 }
 
-@media(min-width:990px){
+@media(min-width:992px){
     main{
         font-size:1.098vw;
         position:absolute;
