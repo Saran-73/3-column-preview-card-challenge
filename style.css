@@ -10,9 +10,10 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     font-size:15px;
     background:var(--light-gray);
-    display:grid;
-    justify-items: center;
+    display:flex;
+    justify-content: center;
     align-items:center;
+    
 }
 main{
     width:345px;height:auto;
@@ -115,12 +116,12 @@ p{
 }
 
 @media(min-width:992px){
+body{
+    height:100vh;
+}
     main{
         font-size:1.098vw;
-        position:absolute;
-        left:50%;top:50%;
-        transform:translate(-50%,-50%);
-        min-width:60vw;
+        width:60%;
         display:flex;
         flex-direction:row;
     }
